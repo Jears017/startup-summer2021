@@ -5,7 +5,7 @@ body{
 .content {
     margin: 0 auto;
     width: 1366px;
-    height: 768px;
+    /*height: 768px;*/
     background-color: #F9F9F9;
 }
 
@@ -23,17 +23,50 @@ body{
 
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .content-responsive {
         width: 320px;
+        height: 1000px !important;
     }
 
     .preloader-container-responsive {
-        width: 320px;
+        width: 320px !important;
     }
 
     body {
-        width: 320px;
+        width: 320px !important;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .content-responsive {
+        width: 425px !important;
+        height: 1000px !important;
+    }
+
+    .preloader-container-responsive {
+        width: 425px !important;
+    }
+
+    body {
+        width: 425px !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .content-responsive {
+        width: 768px;
+        height: 1200px;
+    }
+
+    .preloader-container-responsive {
+        width: 768px;
+    }
+
+    body {
+        width: 768px;
     }
 
 }

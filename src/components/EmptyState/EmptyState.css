@@ -31,6 +31,18 @@
 
 @media (max-width: 320px) {
     .init-responsive{
-        width: 320px;
+        width: 320px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .init-responsive{
+        width: 425px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .init-responsive{
+        width: 768px;
     }
 }

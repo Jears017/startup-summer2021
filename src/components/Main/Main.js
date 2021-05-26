@@ -1,6 +1,6 @@
 import React from 'react'
 import {Profile} from "../Profile/Profile";
-import {Repositories} from "../Reposotories/Repositories";
+import {Repositories} from "../Repositories/Repositories";
 import {RepoListEmpty} from "../RepoListEmpty/RepoListEmpty";
 import {useSelector} from "react-redux";
 import './Main.css'

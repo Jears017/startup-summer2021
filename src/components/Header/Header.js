@@ -31,7 +31,7 @@ export const Header = () => {
     }
 
     return (
-        <div className='header-container header-responsive'>
+        <div className='header-container header-responsive h'>
             <div className='logo logo-responsive'><img src={logo} alt=""/></div>
             <form onSubmit={onSubmitHandler}>
                 <div>

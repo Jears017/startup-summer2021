@@ -32,6 +32,18 @@
 
 @media (max-width: 320px) {
     .repo-list-responsive{
-        width: 320px;
+        width: 320px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .repo-list-responsive{
+        width: 425px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .repo-list-responsive{
+        width: 768px;
     }
 }

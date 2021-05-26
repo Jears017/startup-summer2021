@@ -1,31 +1,31 @@
-.profile{
+.profile {
     margin-left: 3.5rem;
 }
 
-.avatar img{
-    width:280px;
+.avatar img {
+    width: 280px;
     height: 280px;
     border-radius: 50%;
     margin-top: 2rem;
 }
 
-.name{
+.name {
     font-size: 26px;
     font-weight: 600;
     line-height: 33.8px;
 }
 
-.login-container{
+.login-container {
     margin-top: 0.75rem;
 }
 
-.login{
+.login {
     font-size: 18px;
     color: #0064EB;
     text-decoration: none;
 }
 
-.followers-container{
+.followers-container {
     margin-top: 1.5625rem;
     display: flex;
     justify-content: space-between;
@@ -34,62 +34,125 @@
     font-weight: normal;
 }
 
-.followers{
+.followers {
     display: flex;
 }
 
-.followers-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.following{
-    display: flex;
-}
-
-.following-text{
+.followers-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.icon{
+.following {
+    display: flex;
+}
+
+.following-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon {
     margin-right: 0.2rem;
 }
 
 @media (max-width: 320px) {
-    .avatar-res img{
-        width:100px;
-        height: 100px;
+    .avatar-res img {
+        width: 100px !important;
+        height: 100px !important;
     }
 
-    .profile-responsive{
-        margin-left: 1.5625rem;
+    .profile-responsive {
+        margin-left: 1.5625rem !important;
     }
 
-    .followers-responsive{
+    .followers-responsive {
+        width: 240px !important;
+    }
+
+    div.followers-text-responsive {
+        font-size: 13px !important;
+    }
+
+    .avatar-name {
+        display: flex !important;
+    }
+
+    .name-login-resp {
+        margin-top: 2rem !important;
+        margin-left: 0.5rem !important;
+    }
+
+    div.name-responsive {
+        font-size: 24px !important;
+    }
+
+    div.login-container-responsive a {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .avatar-res img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .profile-responsive {
+        margin-left: 1.5625rem !important;
+    }
+
+    .followers-responsive {
+        width: 240px !important;
+    }
+
+    div.followers-text-responsive {
+        font-size: 13px !important;
+    }
+
+    .avatar-name {
+        display: flex !important;
+    }
+
+    .name-login-resp {
+        margin-top: 2rem !important;
+        margin-left: 0.5rem !important;
+    }
+
+    div.name-responsive {
+        font-size: 24px !important;
+    }
+
+    div.login-container-responsive a {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .avatar-res img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-responsive {
+        /*margin-left: 1.5625rem;*/
+    }
+
+    .followers-responsive {
         width: 240px;
+        margin-left: 0.4375rem;
     }
 
-    div.followers-text-responsive{
+    div.followers-text-responsive {
         font-size: 13px;
     }
 
-    .avatar-name{
-        display: flex;
-    }
 
-    .name-login-resp{
+    .name-login-resp {
         margin-top: 2rem;
         margin-left: 0.5rem;
     }
 
-    div.name-responsive{
-        font-size: 24px;
-    }
-
-    div.login-container-responsive a{
-        font-size: 16px;
-    }
 }

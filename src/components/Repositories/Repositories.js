@@ -34,10 +34,10 @@ export const Repositories = () => {
                         )
                     })}
                 </div>
-                <div className='paginate'>
+                <div className='paginate paginate-responsive'>
                     <div className='paginate-details-container paginate-details-container-resp'>
                         <div className='paginate-details paginate-details-responsive'>
-                            {(page * 4) - 3}-{page * 4} of {state.user.public_repos} items
+                            {(page * 4) - 3}-{state.user.public_repos < 4 ? state.user.public_repos :page * 4} of {state.user.public_repos} items
                         </div>
                     </div>
                     <ReactPaginate
