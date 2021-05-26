@@ -1,0 +1,39 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1366px;
+    height: 768px;
+    background-color: #F9F9F9;
+}
+
+.preloader-container {
+    display: flex;
+    justify-content: center;
+    width: 1366px;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 696px;
+
+}
+
+@media (max-width: 320px) {
+    .content-responsive {
+        width: 320px;
+    }
+
+    .preloader-container-responsive {
+        width: 320px;
+    }
+
+    body {
+        width: 320px;
+    }
+
+}

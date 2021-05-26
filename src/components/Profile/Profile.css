@@ -1,0 +1,95 @@
+.profile{
+    margin-left: 3.5rem;
+}
+
+.avatar img{
+    width:280px;
+    height: 280px;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.name{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 33.8px;
+}
+
+.login-container{
+    margin-top: 0.75rem;
+}
+
+.login{
+    font-size: 18px;
+    color: #0064EB;
+    text-decoration: none;
+}
+
+.followers-container{
+    margin-top: 1.5625rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.followers{
+    display: flex;
+}
+
+.followers-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.following{
+    display: flex;
+}
+
+.following-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon{
+    margin-right: 0.2rem;
+}
+
+@media (max-width: 320px) {
+    .avatar-res img{
+        width:100px;
+        height: 100px;
+    }
+
+    .profile-responsive{
+        margin-left: 1.5625rem;
+    }
+
+    .followers-responsive{
+        width: 240px;
+    }
+
+    div.followers-text-responsive{
+        font-size: 13px;
+    }
+
+    .avatar-name{
+        display: flex;
+    }
+
+    .name-login-resp{
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    div.name-responsive{
+        font-size: 24px;
+    }
+
+    div.login-container-responsive a{
+        font-size: 16px;
+    }
+}

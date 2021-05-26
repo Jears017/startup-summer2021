@@ -1,0 +1,10 @@
+.main{
+  display: flex;
+}
+
+@media (max-width: 320px) {
+  .main-res{
+    display: block;
+    width: 320px;
+  }
+}
