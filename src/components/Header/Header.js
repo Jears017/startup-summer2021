@@ -35,7 +35,7 @@ export const Header = () => {
             <div className='logo logo-responsive'><img src={logo} alt=""/></div>
             <form onSubmit={onSubmitHandler}>
                 <div>
-                    <input className='search-engine search-responsive' onChange={inputOnChangeHandler} value={name} type="text"/>
+                    <input placeholder={'Enter GitHub username'} className='search-engine search-responsive' onChange={inputOnChangeHandler} value={name} type="text"/>
                 </div>
             </form>
         </div>
