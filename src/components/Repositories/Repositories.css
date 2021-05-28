@@ -48,6 +48,7 @@
 .paginate {
     display: flex;
     justify-content: flex-end;
+    background-color: #F9F9F9;
 }
 
 .paginate-details-container {
@@ -116,7 +117,8 @@
     }
 
     .paginate-responsive{
-        width: 391px !important;
+        width: 425px !important;
+        background-color: #F9F9F9;
     }
 }
 

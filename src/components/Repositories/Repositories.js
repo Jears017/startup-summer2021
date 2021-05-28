@@ -16,6 +16,7 @@ export const Repositories = () => {
     }
     const {page} = state
 
+
     const onPageChange = ({selected: page}) => {
         dispatch(getRepos(page + 1, 4, state.name))
         dispatch(setPage(page + 1))
@@ -23,9 +24,10 @@ export const Repositories = () => {
 
     return (
         <div className='repo-container repo-container-resp'>
-            <div className='repo-header repo-header-resp'>Repositories ({state ? state.user.public_repos : ''})</div>
+            <div className='repo-header repo-header-resp'>Repositories ({state ? state.user.public_repos : ''})
+            </div>
             <div className='repo-content'>
-                <div>
+                <div className='repo-content-items'>
                     {state.repo.map((repo, i) => {
                         return (
                             <div key={i}>
@@ -37,7 +39,7 @@ export const Repositories = () => {
                 <div className='paginate paginate-responsive'>
                     <div className='paginate-details-container paginate-details-container-resp'>
                         <div className='paginate-details paginate-details-responsive'>
-                            {(page * 4) - 3}-{state.user.public_repos < 4 ? state.user.public_repos :page * 4} of {state.user.public_repos} items
+                            {(page * 4) - 3}-{state.user.public_repos < 4 ? state.user.public_repos : page * 4} of {state.user.public_repos} items
                         </div>
                     </div>
                     <ReactPaginate
