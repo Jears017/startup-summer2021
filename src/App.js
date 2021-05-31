@@ -22,7 +22,7 @@ function App() {
             </div>
         )
     }
-    if (!isEmpty(user)) {
+    if (!isEmpty(user) && !userError) {
         return (
             <div className="content content-responsive">
                 <Header/>
