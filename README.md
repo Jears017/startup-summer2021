@@ -1,5 +1,13 @@
-# startup-summer2021
+# react-github-api
 
-Please, check this demo: https://startup-summer2021.vercel.app/
+Demo version of app: https://startup-summer2021.vercel.app/
 
-p.s. demo which I sent in form is an old version of project 
+![image](https://user-images.githubusercontent.com/48132822/126185766-64338b4a-63a4-4437-b0bd-06dad3809c03.png)
+
+
+Для установки данного приложения на свой компьютер, вам необходимо:
+
+1. Скопировать ссылку на приложение.
+2. Открыть консоль и ввести *git clone <ссылка на проект>*.
+3. После успешной установки на компьютер, необходимо перейти в папку с проектом и утсановить зависимости командой *npm install*.
+4. После установки зависимостей, необходимо ввести команду *npm start*.
